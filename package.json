@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ryaneze20/weather-app/issues"
   },
-  "homepage": "https://github.com/ryaneze20/weather-app#readme"
+  "homepage": "https://github.com/ryaneze20/weather-app#readme",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
 }
