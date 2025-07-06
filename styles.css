@@ -1,0 +1,28 @@
+body {
+    margin : 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    background: #8fc0eb;
+    background: linear-gradient(360deg,rgba(143, 192, 235, 1) 29%, rgba(87, 154, 222, 1) 57%, rgba(70, 109, 189, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black
+}
+
+.top-bar {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;   
+    padding: 10px;
+}
+
+.location-info,
+.location-info p {
+    margin : 5px 0;
+}
+
+.search-bar {
+    display: flex;
+    gap : 10px;
+}

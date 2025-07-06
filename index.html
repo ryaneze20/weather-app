@@ -7,10 +7,36 @@
         <meta name="description" content="A simple weather app to display current and searched weather conditions by location.">
         <title>Weather App</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="app.js" defer></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
-        <h1>placeholder text</h1>
+        <header class = "top-bar">
+            <div class = "location-info">
+                <h1 id = "location">Charlottetown, PE</h1>
+                <p id = "date">Monday, July 6</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="city-input" placeholder="Enter a city name">
+                <button id="search-btn">Search</button>
+            </div>
+        </header>
+        <section class = "current-weather">
+            <div class = "main condition">
+                <h2 id = "weather-main">Mostly Sunny</h2>
+            </div>
+            <div class = "stats">
+                <p> Temp: <span id = "temp">25°C</span></p>
+                <p> Humidity: <span id = "humidity">58%</span></p>
+                <p> Wind: <span id = "wind"></span>12 km/h</p>
+                <p> Feels Like: <span id = "feels-like">27°C</span></p>
+            </div>
+        </section>
+        <section class = "hourly-forecast">
+            <h3>Hourly Forecast</h3>
+            <div class = "forecast-grid" id = "forecast-grid">
+
+            </div>
+        </section>       
     </body>
     <footer>
         <p>Weather App by Brian Ezeokeke</p>
