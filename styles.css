@@ -39,7 +39,7 @@ body {
     color: black;
     border: none;
     border-radius: 4px;
-    cursor: text;
+    cursor: pointer;
     font-weight: bold;
 }
 
